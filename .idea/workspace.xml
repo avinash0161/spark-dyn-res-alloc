@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d87307-dd6f-4714-b18e-f3577ebae85d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_8_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_8_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_16_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spark-dyn-res-alloc-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spark-dyn-res-alloc-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spark-dyn-res-alloc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spark-dyn-res-alloc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Dependencies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/Dependencies.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/example/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/example/Hello.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -90,7 +81,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1410486847" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="127647989" />
         <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="2289097154" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3280644262" />
       </map>
@@ -116,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578343579108</updated>
       <workItem from="1578343580373" duration="14000" />
-      <workItem from="1578343604721" duration="3855000" />
+      <workItem from="1578343604721" duration="6219000" />
     </task>
     <servers />
   </component>

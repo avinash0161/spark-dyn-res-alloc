@@ -3,26 +3,28 @@ package example
 // import required spark classes
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.SparkContext
 
 // define main method (Spark entry point)
 object Hello {
-  def main(args: Array[String]) {
 
-    // initialise spark context
-    val conf = new SparkConf().setAppName(Hello.getClass.getName)
-    val spark: SparkSession = SparkSession.builder.config(conf).getOrCreate()
+  def main(args: Array[String]) = {
+    // Activate speculative task
+    val conf = new SparkConf().setAppName("Spark dynamic allocation demo")
+      .set("spark.dynamicAllocation.enabled", "true")
+      .set("spark.shuffle.service.enabled", "true")
+      .set("spark.dynamicAllocation.initialExecutors", "1")
+      .set("spark.dynamicAllocation.executorIdleTimeout", "120s")
+      .set("spark.dynamicAllocation.schedulerBacklogTimeout", "1s")
 
-    // do stuff
-    println("************")
-    println("************")
-    println("Hello, world!")
-    val rdd = spark.sparkContext.parallelize(Array(1 to 10))
-    rdd.count()
-    println("************")
-    println("************")
+    val sparkContext = new SparkContext(conf)
 
-    // terminate spark context
-    spark.stop()
-
+    println("Starting processing")
+    sparkContext.parallelize(0 to 5, 5)
+      .foreach(item => {
+        // for each number wait 3 seconds
+        Thread.sleep(3000)
+      })
+    println("Terminating processing")
   }
 }
