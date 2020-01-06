@@ -9,7 +9,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "spark-dyn-res-alloc",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += sparkCore
+    libraryDependencies += sparkCore,
+    libraryDependencies += sparkSql
   )
 
 // Uncomment the following for publishing to Sonatype.

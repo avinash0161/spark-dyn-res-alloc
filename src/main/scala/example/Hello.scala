@@ -1,9 +1,28 @@
 package example
 
-object Hello extends Greeting with App {
-  println(greeting)
-}
+// import required spark classes
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
 
-trait Greeting {
-  lazy val greeting: String = "hello"
+// define main method (Spark entry point)
+object Hello {
+  def main(args: Array[String]) {
+
+    // initialise spark context
+    val conf = new SparkConf().setAppName(Hello.getClass.getName)
+    val spark: SparkSession = SparkSession.builder.config(conf).getOrCreate()
+
+    // do stuff
+    println("************")
+    println("************")
+    println("Hello, world!")
+    val rdd = spark.sparkContext.parallelize(Array(1 to 10))
+    rdd.count()
+    println("************")
+    println("************")
+
+    // terminate spark context
+    spark.stop()
+
+  }
 }
