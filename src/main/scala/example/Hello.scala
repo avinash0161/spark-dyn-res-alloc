@@ -16,6 +16,8 @@ object Hello {
       .set("spark.dynamicAllocation.initialExecutors", "1")
       .set("spark.dynamicAllocation.executorIdleTimeout", "120s")
       .set("spark.dynamicAllocation.schedulerBacklogTimeout", "1s")
+      .set("spark.executor.cores", "1")
+      .set("spark.executor.memory", "512m")
 
     val sparkContext = new SparkContext(conf)
 
@@ -23,7 +25,7 @@ object Hello {
     sparkContext.parallelize(0 to 5, 5)
       .foreach(item => {
         // for each number wait 3 seconds
-        Thread.sleep(3000)
+        Thread.sleep(10000)
       })
     println("Terminating processing")
   }
