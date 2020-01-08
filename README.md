@@ -10,7 +10,7 @@
                    **spark-submit** will be found in apache spark's bin folder
                    
                    
- - Release 3: Dynamic resource allocation on Spark standalone cluster on local machine
+ - Release 3: Dynamic resource allocation on Spark standalone cluster on local machine (https://www.waitingforcode.com/apache-spark/dynamic-resource-allocation-spark/read)
  
         - sbt-package
         - Then, start Spark server

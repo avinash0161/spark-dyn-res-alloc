@@ -22,7 +22,7 @@ object Hello {
     val sparkContext = new SparkContext(conf)
 
     println("Starting processing")
-    sparkContext.parallelize(0 to 5, 5)
+    sparkContext.parallelize(0 to 11, 11)
       .foreach(item => {
         // for each number wait 3 seconds
         Thread.sleep(10000)

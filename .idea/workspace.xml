@@ -78,6 +78,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -132,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578343579108</updated>
       <workItem from="1578343580373" duration="14000" />
-      <workItem from="1578343604721" duration="9696000" />
+      <workItem from="1578343604721" duration="11981000" />
     </task>
     <servers />
   </component>
@@ -144,5 +145,9 @@
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="749" y="481" width="479" height="263" key="NewModule_or_Project.wizard/67.27.1853.1173@67.27.1853.1173" timestamp="1578343784917" />
+    <state x="434" y="378" key="SettingsEditor" timestamp="1578521932398">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="434" y="378" key="SettingsEditor/67.27.1853.1173@67.27.1853.1173" timestamp="1578521932398" />
   </component>
 </project>
