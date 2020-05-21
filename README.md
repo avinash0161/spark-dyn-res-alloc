@@ -1,3 +1,5 @@
+## Spark Dynamic Resource Allocation
+
 - Release 1: Initial sbt hello-world project was built following the steps at https://medium.com/@pedrodc/setting-up-a-spark-machine-learning-project-with-scala-sbt-and-mllib-831c329907ea
 
         - To run sbt hello world: in the terminal go to project folder, type sbt and then type run 
